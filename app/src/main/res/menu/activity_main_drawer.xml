@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_general_health"
+            android:icon="@drawable/ic_sethescope"
+            android:title="General Health Checkup" />
+        <item
+            android:id="@+id/nav_health_news"
+            android:icon="@drawable/ic_news"
+            android:title="Health News" />
+        <item
+            android:id="@+id/nav_health_video"
+            android:icon="@drawable/ic_video"
+            android:title="Health Video" />
+        <item
+            android:id="@+id/nav_eat"
+            android:icon="@drawable/ic_healthy"
+            android:title="के खाने के नखाने" />
+        <item
+            android:id="@+id/nav_pregnancy_tips"
+            android:icon="@drawable/ic_baby_feet"
+            android:title="Pregnancy Tips" />
+        <item
+            android:id="@+id/nav_health_calculator"
+            android:icon="@drawable/ic_measurment"
+            android:title="Health Calculator" />
+        <item
+            android:id="@+id/nav_vaccine_guide"
+            android:icon="@drawable/ic_syring"
+            android:title="Vaccine Guide" />
+        <item
+            android:id="@+id/nav_important_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="Important Contacts" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="हाम्रो Facebook" />
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/ic_notification"
+                android:title="Notification for Health Tips" />
+        </menu>
+    </item>
+
+</menu>
